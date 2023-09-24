@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: ([https://your-live-site-url.com](https://age-calculator-app-silk.vercel.app/)
+- Live Site URL: ([Age Calculator App](https://age-calculator-app-silk.vercel.app/))
 
 ## Author
 
