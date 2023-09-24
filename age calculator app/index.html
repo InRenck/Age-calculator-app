@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+<body>
+  <main>
+    <div class="component">
+        <section class="input">
+
+          <div class="input-item" id="input-day">
+            <label for="day"><h3>Day</h3></label>
+            <input type="text" id="day" name="day" placeholder="DD" required>
+            <p id="day-required" class="required-message">This field is required</p>
+            <p id="day-invalid" class="invalid-message">Must be a valid day</p>
+            <p id="date-invalid" class="invalid-message">Must be a valid date</p>
+          </div>
+    
+          <div class="input-item" id="input-month">
+            <label for="month"><h3>Month</h3></label>
+            <input type="text" id="month" name="month" placeholder="MM" required>
+            <p id="month-required" class="required-message">This field is required</p>
+            <p id="month-invalid" class="invalid-message">Must be a valid month</p>
+          </div>
+    
+          <div class="input-item" id="input-year">
+            <label for="year"><h3>Year</h3></label>
+            <input type="text" id="year" name="year" placeholder="YYYY" required>
+            <p id="year-required" class="required-message">This field is required</p>
+            <p id="year-invalid" class="invalid-message">Must be in the past</p>
+          </div>
+        </section>
+ 
+
+  
+      <div class="submit-section">
+        <div class="separator"></div>
+        <img id="submit-btn" class="arrow-icon" src="./assets/images/icon-arrow.svg" alt="Icon of an arrow pointing downwards">
+      </div>
+  
+      <section class="results">
+  
+        <div class="results-item">
+          <h1 class="value" id="years">- -</h1>
+          <h1>years</h1>
+        </div>
+  
+        <div class="results-item">
+          <h1 class="value" id="months">- -</h1>
+          <h1>months</h1>
+        </div>
+        
+        <div class="results-item">
+          <h1 class="value" id="days">- -</h1>
+          <h1>days</h1>
+        </div>
+  
+      </section>
+    </div>
+  </main>
+  
+  <footer>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/FazleLabib">Inghara Renck</a>.
+  </footer>
+
+  <script src="./assets/javascript/script.js"></script>
+</body>
+</html>
